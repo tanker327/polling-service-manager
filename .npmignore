@@ -1,0 +1,31 @@
+# Source
+src/
+tests/
+examples/
+
+# Config files
+tsconfig.json
+jest.config.js
+.eslintrc.js
+.prettierrc
+.gitignore
+
+# CI
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Editor
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
