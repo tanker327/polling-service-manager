@@ -163,6 +163,18 @@ type PollFn<T, U> = (triggerResult: T) => Promise<{done: boolean, result?: U}>;
 type CompleteFn<U, V> = (pollResult: U) => Promise<V>;
 ```
 
+### Error Classes
+
+```typescript
+class PollingError extends Error {
+  constructor(message: string);
+}
+
+class PollingAbortError extends PollingError {
+  constructor(message: string);
+}
+```
+
 ## License
 
 MIT
